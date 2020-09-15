@@ -1,0 +1,91 @@
+body {
+    background: #3D7EAA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFE47A, #3D7EAA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFE47A, #3D7EAA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ice-cream {
+    width: 240px;
+    height: 350px;
+    background: #f77bb9;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 120px;
+    border-top-left-radius: 120px;
+    border-top: solid 10px #FFABD6;
+}
+
+.drop {
+    width: 40px;
+    height: 73px;
+    background: #FFABD6;
+    transform: rotateZ(150deg);
+    position: absolute;
+    right: 30px;
+    opacity: .6;
+    top: 60px;
+    border-radius: 50%;
+}
+
+.eyes {
+    position: absolute;
+    top: 65%;
+    display: flex;
+    width: 100%;
+}
+
+.left__eye, .right__eye {
+    width: 50%;
+    justify-content: center;
+}
+
+.cornea {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #FF2995;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.iris {
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    position: absolute;
+    top: 3px;
+    border-radius: 50%;
+}
+
+.mouth {
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 80%;
+    left: 19%;
+    background: #FF2995;
+    border-radius: 10px;
+    border-bottom: 2px solid #FF98CC;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.stick {
+    width: 60px;
+    height: 72px;
+    background: #ECAA7D;
+    position: absolute;
+    border-top: 12px solid #DB9E74;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    left: 39%;
+}
